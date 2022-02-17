@@ -31,23 +31,19 @@ Before going through the preparation process, please ensure that you have NOT im
 
 ![unknown_2022 02 16-22 03_LI](https://user-images.githubusercontent.com/99851805/154397536-241112e7-1a3c-410e-ae1d-4a53fd9f5002.jpg)
 
-2. Navigate back to the "Physical Interaction" folder and head into the "Prefabs" folder. Locate the "Player Height Detector" prefab and drag it into your world. The placement of it in the Hierarchy does not matter, it can be placed anywhere.
-
-![unknown_2022 02 16-23 27_LI](https://user-images.githubusercontent.com/99851805/154405693-e788d075-ca86-4142-a27b-62982089e07e.jpg)
-
-3. Next, click on the "Layers" tab in the upper right corner of your Unity window, go down and click "Edit Layers" .
+2. Next, click on the "Layers" tab in the upper right corner of your Unity window, go down and click "Edit Layers" .
 
 ![unknown_2022 02 16-22 28_LI](https://user-images.githubusercontent.com/99851805/154399840-7fc784e7-0052-42a3-b4fa-f7b11eb7c0cb.jpg)
 
-4. A list of different layers will have showed up. On "User Layer 27", type in "InteractiveControls". On "User Layer 28", type in "PlayerInteractionCollider".
+3. A list of different layers will have showed up. On "User Layer 27", type in "InteractiveControls". On "User Layer 28", type in "PlayerInteractionCollider".
 
 ![unknown_2022 02 16-22 32_LI](https://user-images.githubusercontent.com/99851805/154400291-1538a4a7-98af-4953-9ed4-fe404f0a8e9d.jpg)
 
-5. Next, you will have to navigate into the "Project Settings" window. You may have to pull it up from the "Windows" tab if you don't already have it out.
+4. Next, you will have to navigate into the "Project Settings" window. You may have to pull it up from the "Windows" tab if you don't already have it out.
 
 ![unknown_2022 02 16-22 37](https://user-images.githubusercontent.com/99851805/154400742-dd851836-2efd-4400-8a4b-65551acaf551.png)
 
-6. Once you are in the "Project Settings" window, look to the left side of the window and click on "Physics". You will see the "Physics" section with what looks like a right-angle triangle with a bunch of checkmarks in it. Look for the "InteractiveControls" and "PlayerInteractionCollider" sections and make it look like the image below.
+5. Once you are in the "Project Settings" window, look to the left side of the window and click on "Physics". You will see the "Physics" section with what looks like a right-angle triangle with a bunch of checkmarks in it. Look for the "InteractiveControls" and "PlayerInteractionCollider" sections and make it look like the image below.
 
 ![unknown_2022 02 16-22 41_LI](https://user-images.githubusercontent.com/99851805/154401268-302b1332-dd28-4c28-a3e4-77eadcf47f6e.jpg)
 
@@ -61,7 +57,7 @@ Once that's done, you are set! You may now import the piano package into your Un
 
 Once you've done that, then that's it really! Congrats! You should now (hopefully) have a working piano in your world! 
 
-## Notes
+## Notes (Pun intended)
 
 If you wish, you may change the sounds that each piano key makes when played. To do this, first import the sound file into your project window, then click on the mesh key (You'll know when you're there when the name of the object is "PianoKey.0XX" where "XX" is the number of the key). In the inspector, scroll down to "Audio Source" and drag your sound file into the "Audio Clip" field.
 
